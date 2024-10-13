@@ -229,3 +229,84 @@ body {
 .container-content3{
   background-color: #001F3F;
 }
+
+
+@media screen and (max-width : 576px) {
+  .container-content1 {
+    padding: 0;
+    text-align: center;
+  }
+  .responsive-content1-1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .card-content-img{
+    height: 200px;
+    object-fit: fill;
+    filter: brightness(.6);
+    border-radius: 2%;
+  }
+  .card-bgcolor{
+    background-color: #507687;
+    border-radius: 2%;
+  }
+  .responsive-content1-2 h5, .responsive-content1-2 p{
+    text-align: justify;
+  }
+  .responsive-content1-3 {
+    margin-top: 15px;
+  }
+  .responsive-jarak-1 {
+    margin: 0 !important; 
+  }
+  .responsive-content2-1{
+    margin-top: 20px;
+  }
+  .responsive-content2-1 .mt-4{
+    margin-top: 15px !important;
+    text-align: center;
+  }
+  .responsive-content2-2 .card{
+    margin-top: 25px;
+    max-width: 100%;
+  }
+  .responsive-content2-2 .btn{
+    margin-top: 25px;
+  }
+  .responsive-content3-1 .card {
+    margin-top: 25px;
+    max-width: 100%;
+  }
+  .responsive-content3-1 a {
+    margin-top: 25px;
+  }
+  .responsive-content3-1 .row {
+    margin-top: 10px;
+  }
+  .responsive-content3-1 .mt-4 {
+    margin-top: 10px !important;
+  }
+  .responsive-content4-1 {
+    display: block !important;
+  }
+  .responsive-content4-2 .my-5{
+    margin: 0 !important;
+    margin-bottom: 25px !important;
+  }
+  .responsive-content4-2 p {
+    text-align: justify;
+  }
+  .con-button {
+    display: none;
+  }
+  .responsive-content4-3 img {
+    border-radius: 3% !important;
+  }
+  .responsive-footer p {
+    text-align: center;
+  }
+  .responsive-footer #contact {
+    position: relative;
+    left: 12%;
+  }
+}
