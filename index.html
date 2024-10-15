@@ -15,6 +15,36 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
+    <!-- MODAL AWAL -->
+    <div class="modal fade align-content-center" id="modaltampilanawal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">PEMBERITAHUAN</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="text-uppercase">Please Use Laptop Or PC For Better Experience, Thank You!</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL END -->
+
     <!-- MODAL -->
     <div
       class="modal fade align-content-center"
@@ -326,7 +356,7 @@
                 alt="gambar card"
               />
               <div class="row card-body">
-                <div class="col-md-9">
+                <div class="col-md-8">
                   <p class="card-title text-white fw-lighter">
                     Bootstrap Project
                   </p>
@@ -334,8 +364,10 @@
                     Another Website Portofolio
                   </h5>
                 </div>
-                <div class="col-md-3 align-content-center">
-                  <a href="#" class="btn btn-primary rounded-0 fw-bold"
+                <div class="col-md-4 align-content-center">
+                  <a
+                    href="portofolio kedua/index.html"
+                    class="btn btn-primary rounded-0 fw-bold"
                     >Try it!</a
                   >
                 </div>
@@ -355,14 +387,16 @@
             <div class="card rounded-0 card-transparan" style="width: 24rem">
               <img src="scgaleri.PNG" class="card-img-top" alt="gambar card" />
               <div class="row card-body">
-                <div class="col-md-9">
+                <div class="col-md-8">
                   <p class="card-title text-white fw-lighter">
                     Full CSS Project
                   </p>
                   <h5 class="card-text text-white fw-bolder">Website Galeri</h5>
                 </div>
-                <div class="col-md-3 align-content-center">
-                  <a href="#" class="btn btn-primary rounded-0 fw-bold"
+                <div class="col-md-4 align-item-center">
+                  <a
+                    href="galeri/index.html"
+                    class="btn btn-primary rounded-0 fw-bold"
                     >Try it!</a
                   >
                 </div>
@@ -437,7 +471,7 @@
                 data-aos-duration="1000"
               >
                 <section id="aboutme">
-                  <p>
+                  <p class="justify">
                     Saya adalah lulusan S1-Teknik Informatika dari Universitas
                     Duta Bangsa. Saya memiliki pengalaman dan menguasai basic
                     dari pemrograman, khususnya Web Development dan Data Analyst
@@ -577,5 +611,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="modal.js"/>
   </body>
 </html>
